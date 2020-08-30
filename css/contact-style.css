@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+body {
+    background-color: #E4E4E4;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 1150px) {
+    main {
+        margin-top: -200px;
+    }
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #3a7bf5;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #175fe4;
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 10px black;
+}
+
+input[type="submit"]:disabled {
+    color: #ffffff;
+    background-color: #63c7e9;
+}
+
+input[type="submit"]:disabled:hover {
+    transform: none;
+    box-shadow: 0px 0px 0px black;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oval-bottom {
+    height: 200px;
+    width: 100%;
+    -webkit-clip-path: ellipse(60% 65% at 50% 20%);
+    clip-path: ellipse(65% 60% at 50% 20%);
+    background-color: #E4E4E4;
+    position: absolute;
+    z-index: 999;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+@media (max-width: 1150px) {
+    header {
+        margin-bottom: -150px;
+    }
+}
+
+
+#recaptcha {
+    text-align: center;
+}

@@ -1,0 +1,815 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #E4E4E4;
+}
+
+main {
+    margin-top: 50px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        margin-top: -250px;
+    }
+}
+
+#main-top-left {
+    margin: 0;
+    padding: 0;
+}
+
+#main-top-left p {
+    margin-top: -50px;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+#main-top-left ul {
+    padding: 0;
+    margin: 0;
+}
+
+#main-top-left ul li {
+    padding-bottom: 40px;
+}
+
+#main-top-left ul li:last-child {
+    padding-bottom: 0;
+}
+#main-top {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#main-top {
+    color: white;
+}
+
+#main-top ul {
+    font-size: 42px;
+    list-style-type: none;
+}
+
+#main-top ul li i {
+    color: #FFBA00;
+}
+
+#low-width-nav {
+    display: none;
+}
+
+#store-badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#google-play-badge {
+    width: 320px;
+    height: 124px;
+}
+
+#app-store-badge {
+    width: 280px;
+    height: 93.5px;
+}
+
+#main-top {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+#main-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+#images {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#app-information {
+    padding: 25px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px #0000004b;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+#app-information h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#app-information p {
+    color: #0000007a;
+    padding: 10px;
+}
+
+.app-funktionen {
+    padding-bottom: 150px;
+}
+
+.app-funktionen h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.funktionen {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.funktionen h2 {
+    font-size: 42px;
+}
+
+.funktionen div div h2 {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.funktionen div div p {
+    width: 90%;
+    margin: auto;
+}
+
+.funktionen div div {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.funktionen-bg {
+    height: 500px;
+    width: 500px;
+}
+
+.funktionen-bg:nth-child(1) {
+    background: url("sportmate.png");
+}
+
+.funktionen-bg:nth-child(2) {
+    background: url("gruppenpower.png");
+}
+
+.funktionen-bg div {
+    position: relative;
+    top: 350px;
+}
+
+.vorteile {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#vorteile2 {
+    box-shadow: 0px 0px 6px #4d4d4d;
+    text-align: center;
+    background: #ffffff;
+}
+
+#vorteile2 h2 {
+    font-size: 42px;
+    padding: 20px;
+}
+
+#vorteileKeywords {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#vorteileKeywords div {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#vorteileKeywords h2 {
+    font-size: 36px;
+}
+
+#vorteileKeywords p {
+    color: #383737;
+}
+
+#vorteileKeywords i {
+    font-size: 50px;
+}
+
+.review-bar {
+    color: #FFBA00;
+}
+
+.review-bar i {
+    font-size: 24px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #FFBA00;
+    color: #383737;
+    width: 400px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0px 2px 3px #2a2a2ab0;
+    transition: 0.3s all;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 6px #2a2a2ab0;
+}
+
+/* newsletter start */
+
+.newsletter-container {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, #6FC17F, #38D557);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 2px grey;
+    font-size: 24px;
+    margin-top: 200px;
+}
+
+.newsletter-container h2 {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.newsletter-container input[type="submit"] {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#email {
+    width: 70%;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.5s all;
+}
+
+#email:focus {
+    color: white;
+    border-bottom: 2px solid #148f03;
+}
+
+#check_policy {
+    margin-top: 30px;
+}
+
+/* newsletter end */
+
+/* der weg start */
+
+#der-weg-parent-div {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#der-weg-parent-div h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+}
+
+#der-weg {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-items: center;
+    align-items: center;
+}
+
+#p {
+    color: #0000008e;
+    font-size: 2vw;
+    margin-top: -10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: 0;
+    transition: 0.5s transform;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+}
+
+/* der weg end */
+
+.oval-bottom {
+    height: 200px;
+    width: 100%;
+    -webkit-clip-path: ellipse(60% 65% at 50% 20%);
+    clip-path: ellipse(80% 70% at 50% 20%);
+    background-color: #E4E4E4;
+    position: absolute;
+    top: 2900px;
+    left: 0px;
+}
+
+footer {
+    margin-top: 250px;
+}
+
+@media (max-width: 1550px) {
+    .oval-bottom {
+        top: 2850px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #mfs-app-iphone-picture {
+        width: 335px;
+        height: 680px;
+    }
+}
+
+@media (max-width: 1350px) {
+    #main-top {
+        grid-template-columns: 60% 40%;
+    }
+
+    #main-top-left {
+        margin-top: -200px;
+    }
+
+    #store-badges {
+        position: absolute;
+        top: 580px;
+        left: 300px;
+        margin: 0;
+    }
+    
+    .newsletter-container {
+        height: 280px;
+    }
+
+    #email {
+        font-size: 2.3vw;
+    }
+
+    .newsletter-container h2, .newsletter-container label {
+        font-size: 2.5vw;
+    }
+
+    .oval-bottom {
+        top: 2900px;
+    }
+
+    /*#google-play-store-badge {
+        width: ;
+        height: ;
+    }
+    #app-store-badge {
+        width: ;
+        height: ;
+    }*/
+}
+
+@media (max-width: 1250px) {
+    #mfs-app-iphone-picture {
+        width: 295px;
+        height: 600px;
+    }
+
+    #der-weg-parent-div h2 {
+        font-size: 26px;
+    }
+    
+    #der-weg {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #p {
+        margin-top: -10px;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    #main-top-left {
+        margin-top: -300px;
+    }
+
+    #main-top-left p {
+        font-size: 4vw;
+    }
+
+    #main-top-left ul {
+        font-size: 3.5vw;
+    }
+
+    #der-weg-parent-div h1, #team-container h1 {
+        font-size: 5vw;
+    }
+
+    #p {
+        font-size: 3.5vw;
+        margin-bottom: 20px;
+    }
+
+    .oval-bottom {
+        top: 3050px;
+    }
+
+    #images {
+        margin-bottom: 200px;
+    }
+
+    #store-badges {
+        top: 580px;
+        left: 280px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #images {
+        margin-bottom: 200px;
+    }
+
+    header {
+        margin-bottom: 300px;
+    }
+
+    .funktionen-bg {
+        height: 400px;
+        width: 400px;
+    }
+
+    .funktionen-bg div {
+        top: 260px;
+    }
+
+    .oval-bottom {
+        top: 3000px;
+    }
+
+    #store-badges {
+        top: 580px;
+        left: 260px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #vorteileKeywords {
+        flex-direction: column;
+    }
+
+    #vorteileKeywords div {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    #vorteileKeywords div p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #vorteileKeywords div p:last-child {
+        padding-bottom: 30px;
+    }
+
+    .oval-bottom {
+        top: 3600px;
+    }
+
+    #store-badges {
+        top: 580px;
+        left: 220px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .oval-bottom {
+        top: 3580px;
+    }
+
+    .vorteile {
+        width: 90%;
+    }
+
+    #store-badges {
+        top: 580px;
+        left: 190px;
+    }
+}
+
+@media (max-width: 950px) {
+    .oval-bottom {
+        top: 3700px;
+    }
+
+    .app-funktionen h2 {
+        font-size: 7vw;
+    }
+
+    .funktionen-bg {
+        height: 350px;
+        width: 350px;
+    }
+
+    .funktionen-bg div {
+        top: 200px;
+    }
+
+    .funktionen-bg div h2 {
+        font-size: 36px;
+    }
+
+    .oval-bottom {
+        top: 3600px;
+    }
+
+    #store-badges {
+        top: 540px;
+        left: 130px;
+    }
+}
+
+@media (max-width: 830px) {
+    .btn {
+        width: 80%;
+    }
+
+    .newsletter-container {
+        height: 220px;
+    }
+
+    .newsletter-container h2 {
+        font-size: 2.8vw;
+    }
+
+    .oval-bottom {
+        top: 3800px;
+    }
+
+    .funktionen {
+        flex-direction: column;
+    }
+
+    .funktionen-bg:nth-child(1) {
+        margin-bottom: 50px;
+    }
+
+    .funktionen-bg {
+        width: 300px;
+        height: 300px;   
+    }
+
+    .funktionen-bg div {
+        top: 110px;
+    }
+    .funktionen-bg div h2 {
+        font-size: 28px;
+    }
+
+    .funktionen-bg div p {
+        font-size: 16px;
+    }
+
+    .oval-bottom {
+        top: 3900px;
+    }
+
+    #store-badges {
+        top: 530px;
+        left: 80px;
+    }
+}
+
+@media (max-width: 790px) {
+    #app-information h2 {
+        font-size: 5vw;
+    }
+
+    #app-information p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 750px) {
+    .oval-bottom {
+        top: 3900px;
+    }
+
+    #main-top-left {
+        margin-top: -400px;
+    }
+
+    #store-badges {
+        top: 480px;
+        left: 70px;
+    }
+}
+
+@media (max-width: 735px) {
+    .oval-bottom {
+        top: 3850px;
+    }
+
+    footer {
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+    #mfs-app-iphone-picture {
+        display: none;
+    }
+
+    #main-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-top-left {
+        margin-top: 100px;
+    }
+
+    #main-top-left p {
+        font-size: 36px;
+    }
+
+    #main-top-left ul {
+        font-size: 32px;
+    }
+
+    #store-badges {
+        position: initial;
+    }
+}
+
+@media (max-width: 650px) {
+    iframe {
+        width: 355px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 590px) {
+    .oval-bottom {
+        top:3850px;
+    }
+}
+
+@media (max-width: 530px) {
+    .btn {
+        font-size: 3vw;
+    }
+
+    #vorteile2 h2 {
+        font-size: 7vw;
+    }
+
+    .funktionen-bg {
+        height: 250px;
+        width: 250px;
+    }
+
+    .oval-bottom {
+        top: 3650px;
+    }
+
+    #main-top-left p {
+        font-size: 6vw;
+    }
+
+    #main-top-left ul {
+        font-size: 5vw;
+    }
+
+    /* #google-play-badge {
+        height: ;
+        width: ;
+    }
+
+    #app-store-badge {
+        height: ;
+        width: ;
+    } */
+
+    main {
+        margin-top: -300px;
+    }
+
+    .main-nav-top-left-list, .main-nav-top-right-list {
+        display: none;
+    }
+    
+    .main-nav-top {
+        display: inline;
+        text-align: center;
+    }
+
+    #low-width-nav {
+        display: initial;
+        text-align: center;
+    }
+
+    #low-width-nav ul li {
+        display: inline;
+        padding-right: 50px;
+    }
+
+    #low-width-nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        height: 170px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 460px) {
+    .oval-bottom {
+        top: 3600px;
+    }
+}
+
+@media (max-width: 440px) {
+    .oval-bottom {
+        top: 3560px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    #main-top-left ul li {
+        padding-bottom: 20px;
+    }
+
+    #google-play-badge {
+        width: 250px;
+        height: 97.5px;
+    }
+
+    #app-store-badge {
+        width: 230px;
+        height: 77px;
+    }
+
+    .oval-bottom {
+        top: 3450px;
+    }
+}
+
+@media (max-width: 400px) {
+    .oval-bottom {
+        top: 3380px;
+    }
+}
+
+@media (max-width: 340px) {
+    .oval-bottom {
+        top: 3320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .oval-bottom {
+        top: 3250px;
+    }
+}

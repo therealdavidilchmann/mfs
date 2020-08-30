@@ -1,0 +1,171 @@
+#contactFormContainer {
+    width: 900px;
+    margin: auto;
+}
+
+#contactForm {
+    text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+    background: transparent;
+    width: 350px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid grey;
+    margin-right: 15px;
+    transition: 0.3s border;
+}
+
+form i {
+    font-size: 20px;
+    padding: 12px;
+    color: #555555;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #2c71f3;
+}
+
+#subject {
+    margin-left: -5px;
+}
+
+#nameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailSubjectContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    margin-left: -15px;
+    margin-right: 15px;
+}
+
+#emailLabel {
+    margin-right: 15px;
+}
+
+#subject {
+    margin-right: 20px;
+}
+
+#subjectLabel {
+    margin-right: 5px;
+}
+
+#messageContainer {
+    margin-bottom: 20px;
+}
+
+textarea {
+    overflow: auto;
+    width: 780px;
+    padding: 10px;
+    height: 300px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #0a0a0a;
+    border: 2px solid #555555;
+    background-color: #ebebeb;
+    margin-right: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 0.3s border;
+}
+
+textarea:focus {
+    border-color: #2c71f3;
+}
+
+.formfield {
+    vertical-align: middle;
+}
+
+.validationMessage {
+    margin-top: -30px;
+    color: red;
+    font-size: 14px;
+}
+
+.validationMessage:last-child {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#submitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invalid {
+    color: #ec2719;
+}
+
+.valid {
+    color: #055f08;
+}
+
+@media (max-width: 920px) {
+    input[type="text"], input[type="email"] {
+        width: 220px;
+        font-size: 2.5vw;
+    }
+
+    form i {
+        font-size: 2.5vw;
+    }
+
+    textarea {
+        width: 80%;
+        font-size: 2.5vw;
+        height: 200px;
+    }
+
+    #contactFormContainer {
+        width: 100%;
+    }
+
+    #submitBtn {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #nameContainer, #emailSubjectContainer {
+        flex-direction: column;
+    }
+
+    .validationMessage {
+        margin-top: -30px;
+        color: red;
+        font-size: 3vw;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 220px;
+        font-size: 4vw;
+		margin-bottom: 20px;
+    }
+
+    form i {
+        font-size: 4vw;
+    }
+
+    textarea {
+        width: 80%;
+        font-size: 4vw;
+        height: 200px;
+    }
+}
